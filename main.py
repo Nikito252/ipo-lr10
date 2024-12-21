@@ -26,3 +26,4 @@ if response.status_code == 200:
         json.dump(data, f, indent=4)
 else:
     print("Failed to retrieve the website.")
+ 
